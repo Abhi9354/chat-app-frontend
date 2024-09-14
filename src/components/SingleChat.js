@@ -16,7 +16,7 @@ import io from "socket.io-client";
 import animationData from "../animations/typing.json";
 import snail from "../images/hi.gif";
 
-const ENDPOINT = "https://chat-app-ojej.onrender.com";
+const ENDPOINT = "https://chat-app-backend-vd3k.onrender.com";
 var socket, selectedChatCompare;
 
 export default function SingleChat({ fetchAgain, setfetchAgain }) {
